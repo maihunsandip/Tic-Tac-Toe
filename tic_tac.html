@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link type="text/css" rel="stylesheet" href="tic.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac</title>
+</head>
+<body onload= "startGame()">
+    <h1><font class="text">Tic-Tac-Toe</font></h1><br>
+    <div id="message" class="text1">Result</div>
+            <table class="shift">
+                <tr>
+                    <td id="s1" class="Square" onclick="nextMove(this);"></td>
+                    <td id="s2" class="Square" onclick="nextMove(this);"></td>
+                    <td id="s3" class="Square" onclick="nextMove(this);"></td>
+                </tr>
+                <tr>
+                    <td id="s4" class="Square" onclick="nextMove(this);"></td>
+                    <td id="s5" class="Square" onclick="nextMove(this);"></td>
+                    <td id="s6" class="Square" onclick="nextMove(this);"></td>
+                </tr>
+                <tr>
+                    <td id="s7" class="Square" onclick="nextMove(this);"></td>
+                    <td id="s8" class="Square" onclick="nextMove(this);"></td>
+                    <td id="s9" class="Square" onclick="nextMove(this);"></td>
+                </tr>
+            </table>
+     <button type="button" onclick="startGame()" class="but">Start New Game</button>
+     <script type="text/javascript" src="tic.js"></script>
+</body>
+</html>
